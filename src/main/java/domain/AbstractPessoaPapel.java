@@ -3,10 +3,7 @@ package domain;
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 
-/**
- *
- * @author Frank D. Martinez. fmartinez@asimovt.com
- */
+
 @Entity()
 @Table(name = "PessoasPapeis")
 public abstract class AbstractPessoaPapel {
